@@ -52,4 +52,4 @@ const Reviews = () => {
 
 };
 
-export default Review;
+export default Reviews;

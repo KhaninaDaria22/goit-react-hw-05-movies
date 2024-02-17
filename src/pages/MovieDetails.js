@@ -1,7 +1,7 @@
 import { fetchMovieById } from '../services/api';
 import { Suspense } from 'react';
 import { useEffect, useState } from 'react';
-import { useParams, Outlet, useLocation, Link } from 'react-router-dom';
+import { useParams, Outlet, useLocation, } from 'react-router-dom';
 import {LoadingIndicator} from '../components/LoadingIndicator';
 import { Button, Container, StyledLink } from '../components/MovieDetails.styled';
 import MovieCard from 'components/MovieCard';
